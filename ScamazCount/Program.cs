@@ -22,7 +22,7 @@ namespace ScamazCount
 
         static void Main()
         {
-            //TwitchClient client = new TwitchClient(new ConnectionCredentials("scamazCounter", "oauth:8ecge1hywr8sm3wk0nllnx4mcvwoxv"));
+            
             //client.OnConnected += ClientOnOnConnected;
             //client.OnMessageReceived += OnMessageReceived;
             //client.OnViewerJoined += ClientOnOnViewerJoined;
