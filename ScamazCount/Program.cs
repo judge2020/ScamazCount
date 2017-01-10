@@ -39,7 +39,7 @@ namespace ScamazCount
             var clientid = File.ReadAllText("clientid.txt");
             if (clientid == "clientidhere" || string.IsNullOrEmpty(clientid))
             {
-                Console.WriteLine("Please change clientid.txt with your client id for twitch. include oauth:");
+                Console.WriteLine("Please change clientid.txt with your client id for twitch.");
                 Console.ReadLine();
                 Environment.Exit(0);
             }
